@@ -2,11 +2,10 @@ import http from 'http';
 import path from 'path';
 import fs from 'fs';
 import url from 'url';
-import querystring from 'querystring'
 
 const __filename = url.fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
-const PORT = process.env.PORT;
+const PORT = 8080;
 
 const serve = url => {
   try{
@@ -51,4 +50,4 @@ const server = http.createServer((req, res) => {
   }
 })
 
-server.listen(8080, () => console.log(`Listening on port ${PORT}`));
+server.listen(PORT, () => console.log(`Listening on port ${PORT}`));
