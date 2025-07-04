@@ -1,0 +1,23 @@
+{
+  "name": "first_node_website",
+  "version": "1.0.0",
+  "description": "This is my first website made in Node. So can I technically call myself a full-stack webdev now?",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon --env-file=.env index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lukewood-1/first_node_website.git"
+  },
+  "author": "LukeWood",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lukewood-1/first_node_website/issues"
+  },
+  "homepage": "https://github.com/lukewood-1/first_node_website#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
